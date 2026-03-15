@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Interactive Calculator Webpage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="calculator">
+    <h1 class="calculator-title">iOS Calculator</h1>
+    <div class="display" id="display" aria-live="polite">0</div>
+    <div class="buttons">
+      <button type="button" class="btn btn-fn" data-action="ac">AC</button>
+      <button type="button" class="btn btn-fn" data-action="00">00</button>
+      <button type="button" class="btn btn-fn" data-action="percent">%</button>
+      <button type="button" class="btn btn-op" data-action="divide">÷</button>
+
+      <button type="button" class="btn btn-num" data-action="7">7</button>
+      <button type="button" class="btn btn-num" data-action="8">8</button>
+      <button type="button" class="btn btn-num" data-action="9">9</button>
+      <button type="button" class="btn btn-op" data-action="multiply">×</button>
+
+      <button type="button" class="btn btn-num" data-action="4">4</button>
+      <button type="button" class="btn btn-num" data-action="5">5</button>
+      <button type="button" class="btn btn-num" data-action="6">6</button>
+      <button type="button" class="btn btn-op" data-action="subtract">−</button>
+
+      <button type="button" class="btn btn-num" data-action="1">1</button>
+      <button type="button" class="btn btn-num" data-action="2">2</button>
+      <button type="button" class="btn btn-num" data-action="3">3</button>
+      <button type="button" class="btn btn-op" data-action="add">+</button>
+
+      <button type="button" class="btn btn-num btn-zero" data-action="0">0</button>
+      <button type="button" class="btn btn-num" data-action="decimal">.</button>
+      <button type="button" class="btn btn-op" data-action="equals">=</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
